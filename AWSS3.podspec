@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/kousun12/aws-sdk-ios.git',
                      :tag => s.version}
   s.requires_arc = true
-  s.dependency 'AWSCore'
   s.dependency 'Bolts', '~> 1.2.0'
   s.dependency 'Mantle', '~> 1.4'
   s.dependency 'TMCache', '~> 1.2.1'
