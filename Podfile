@@ -68,6 +68,7 @@ end
 target :AWSS3 do
   xcodeproj 'AWSS3'
   link_with 'AWSS3Tests'
+  pod 'AWSCore', :git => 'https://github.com/kousun12/aws-sdk-ios'
   default_pods
 end
 
