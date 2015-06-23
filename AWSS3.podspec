@@ -15,8 +15,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency 'Bolts', '~> 1.2.0'
   s.dependency 'AWSCore', :git => 'https://github.com/kousun12/aws-sdk-ios', :tag => '2.1.2'
-  s.dependency 'Mantle', '~> 1.4'
-  s.dependency 'TMCache', '~> 1.2.1'
 
   s.source_files = 'AWSS3/*.{h,m}'
   s.resources = ['AWSS3/Resources/*.json']
