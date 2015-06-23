@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.dependency 'Mantle', '~> 1.4'
   s.dependency 'TMCache', '~> 1.2.1'
 
-  s.source_files = 'AWSS3/*.{h,m}'
-  s.resources = ['AWSS3/Resources/*.json']
+  s.source_files = 'AWSCore/*.{h,m}', 'AWSCore/**/*.{h,m}', 'AWSS3/*.{h,m}'
+  s.resources = ['AWSCore/**/Resources/*.json', 'AWSS3/Resources/*.json']
+  s.private_header_files = 'AWSCore/MobileAnalytics/Internal/*.h'
 end
