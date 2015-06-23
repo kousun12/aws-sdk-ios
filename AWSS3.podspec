@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                      :tag => s.version}
   s.requires_arc = true
   s.dependency 'AWSCore'
-  s.dependency 'Bolts', '~> 1.1.0'
+  s.dependency 'Bolts', '~> 1.2.0'
   s.dependency 'Mantle', '~> 1.4'
   s.dependency 'TMCache', '~> 1.2.1'
 
