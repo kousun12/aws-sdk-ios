@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.dependency 'UICKeyChainStore', '~> 2.0'
   s.dependency 'Reachability', '~> 3.1'
   s.dependency 'GZIP', '~> 1.0.3'
+  s.dependency 'TMCache', '~> 1.2.1'
 
   s.source_files = 'AWSCore/*.{h,m}', 'AWSCore/**/*.{h,m}'
   s.resources = ['AWSCore/**/Resources/*.json']
