@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/kousun12/aws-sdk-ios.git',
                      :tag => s.version}
   s.requires_arc = true
+  s.dependency 'TMCache', '~> 1.2.1
 
   s.source_files = 'AWSS3/*.{h,m}'
   s.resources = ['AWSS3/Resources/*.json']
